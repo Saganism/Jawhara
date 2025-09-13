@@ -1,33 +1,33 @@
-export function Products() {
+export function Photos() {
     const products = [
       {
         id: 1,
         name: "spare",
-        image: "/pro1.jpg",
+        image: "/pic1.jpg",
       },
       {
         id: 2,
         name: "spare",
-        image: "/pro2.jpg",
+        image: "/pic2.jpg",
       },
       {
         id: 3,
         name: "spare",
-        image: "/pro3.jpg",
+        image: "/pic3.jpg",
       },
       {
         id: 4,
         name: "spare",
-        image: "/pro4.jpg",
+        image: "/pic4.jpg",
       },
     ]
   
     return (
       <section className="py-16 px-4 max-w-4xl mx-auto" id="products">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-foreground mb-4 text-balance">منتجاتنا</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-4 text-balance">صور متفرقة</h2>
           <p className="text-muted-foreground text-lg text-pretty">
-            أدواتنا الاحتياطية من شركتي رينو وفولفو
+            صور من شركتنا
           </p>
         </div>
   
